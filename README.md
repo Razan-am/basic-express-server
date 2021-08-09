@@ -27,7 +27,7 @@
 ![status](./images/uml.png)
 
 ### Notes
-- pull request : https://github.com/Razan-am/basic-express-server/pull/1
+- pull request : https://github.com/Razan-am/basic-express-server/pull/2
 - How do I install the app or library?
   - Clone the repo to your local machine
   - in the terminal, `run npm i`
