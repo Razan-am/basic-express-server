@@ -1,12 +1,12 @@
 # Lab: Class 02
 ## basic-express-server
 
-### Deployment Test
-- 
+### Deployment Link
+- https://basic-express-ser.herokuapp.com/
 
 ### Author: Razan Alamleh
- - tests report
- - front-end
+ - [tese report](https://github.com/Razan-am/basic-express-server/runs/3280579477?check_suite_focus=true)
+ - [front end](https://basic-express-ser.herokuapp.com/status)
 
 ### Setup
 - .env requirements
@@ -17,12 +17,22 @@
   - Endpoint: /status
     - Returns Object
 
+    ![status](./images/status.PNG)
+
 
 ### Tests
 - Unit Tests: npm run test
 
 ### UML
-
+![status](./images/uml.png)
 
 ### Notes
-pull request:
+- pull request : https://github.com/Razan-am/basic-express-server/pull/1
+- How do I install the app or library?
+  - Clone the repo to your local machine
+  - in the terminal, `run npm i`
+  - Create `.env` file with port name as the one in the `env samples` 
+
+- How do I test the app or library?
+1.  in the termenal run `npm run test`
+2. in the browser hit `localhost:yourPortNumber/person?name=razan`
