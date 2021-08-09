@@ -21,6 +21,14 @@ app.get ('/',(req,res)=>{
   res.send('Server is working fine');
 });
 
+app.get ('/status',(req,res)=>{
+  res.send({
+    domain:'https://basic-express-ser.herokuapp.com/',
+    status:'running',
+    port:'3000',
+  });
+});
+
 app.get('/person',validator,(req,res)=>{
   const name = req.query.name;
   res.json({
